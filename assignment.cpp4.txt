@@ -1,0 +1,35 @@
+Student Expense Manager
+Problem overview
+The Student Expense Manager is a menu-driven C++ program that helps students record daily expenses, review their spending, set monthly budgets, and receive warnings when they approach or exceed a budget.
+Modules included
+1. User registration
+2. Login system
+3. Add daily expense
+4. View expense history, sorted by date
+5. Category-wise expense report
+6. Monthly expense report
+7. Set monthly budget
+8. Budget warning at 80% and when the budget is reached
+9. Estimate monthly spending from the current daily average
+10. Search expenses by category, description, or date
+11. Delete an expense by its ID
+12. Save users, expenses, and budgets in files
+Concepts used
+- Variables, loops, arrays, and structures
+- Functions and strings
+- File handling
+- Searching and Bubble Sort
+- Menu-driven programming and report generation
+Source code
+[Open the complete C++ program](/C:/Users/ACER/Documents/Codex/2026-11-09/1-write-a-program-to-input/expense_manager.cpp)
+
+Compile using:
+g++ -std=c++11 expense_manager.cpp -o expense_manager
+The program creates users.txt, expenses.txt, and budgets.txt in its run folder to preserve data between sessions.
+Future enhancements
+- AI-based spending predictions
+- Mobile application
+- QR bill scanner
+- Cloud backup
+Learning outcomes
+Students can practice file handling, data management, menu-driven programming, basic searching and sorting, and generating expense reports.
